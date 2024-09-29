@@ -8,10 +8,8 @@ export function ProductsIndex(props) {
           <p> {product.name}</p>
           <p>{product.price}</p>
           <p>{product.description}</p>
-          <img src={product.images[0] && product.images[0].url} />
+          <img src={product.image_url} />
           </div>
-
-
       ))}
     </div>
   );
